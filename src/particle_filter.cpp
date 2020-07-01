@@ -14,7 +14,7 @@ using namespace std;
 void ParticleFilter::init(double x, double y, double theta, double std[]) {
   
   // Set the number of particles
-  num_particles = 10;
+  num_particles = 500;
 
   // Normal (Gaussian) distribution for x, y, and theta
   default_random_engine gen;
